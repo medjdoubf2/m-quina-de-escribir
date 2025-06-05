@@ -1,0 +1,56 @@
+<!DOCTYPE html>
+<html lang="es">
+
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <link rel="stylesheet" href="./css/style.css"> 
+   <title>Maquina de Escribir</title>
+</head>
+
+<body>
+  <div id="div1">
+    <label for="texto">Escribe con los botones</label>
+    <input type="text" id="pantalla" value="" placeholder="ME LLAMO PANTALLA">
+  </div>
+
+<div id="maquina">  
+  <input type="button" value="Q" onclick="escribeLetra(this.value)">
+  <input type="button" value="W" onclick="escribeLetra(this.value)">
+  <input type="button" value="E" onclick="escribeLetra(this.value)">
+  <input type="button" value="R" onclick="escribeLetra(this.value)">
+  <input type="button" value="T" onclick="escribeLetra(this.value)">
+  <input type="button" value="Y" onclick="escribeLetra(this.value)">
+  <input type="button" value="U" onclick="escribeLetra(this.value)">
+  <input type="button" value="I" onclick="escribeLetra(this.value)">
+  <input type="button" value="O" onclick="escribeLetra(this.value)">
+  <input type="button" value="P" onclick="escribeLetra(this.value)">
+  <button type="button" onclick="borrarLetra()">🔙</button>
+  <br>
+  <input type="button" value="A" onclick="escribeLetra(this.value)" id="b"> 
+  <input type="button" value="S" onclick="escribeLetra(this.value)">
+  <input type="button" value="D" onclick="escribeLetra(this.value)">
+  <input type="button" value="F" onclick="escribeLetra(this.value)">
+  <input type="button" value="G" onclick="escribeLetra(this.value)">
+  <input type="button" value="H" onclick="escribeLetra(this.value)">
+  <input type="button" value="J" onclick="escribeLetra(this.value)">
+  <input type="button" value="K" onclick="escribeLetra(this.value)">
+  <input type="button" value="L" onclick="escribeLetra(this.value)">
+  <input type="button" value="Ñ" onclick="escribeLetra(this.value)">
+  <br>
+  <input type="button" value="Z" onclick="escribeLetra(this.value)">
+  <input type="button" value="X" onclick="escribeLetra(this.value)">
+  <input type="button" value="C" onclick="escribeLetra(this.value)">
+  <input type="button" value="V" onclick="escribeLetra(this.value)">
+  <input type="button" value="B" onclick="escribeLetra(this.value)">
+  <input type="button" value="N" onclick="escribeLetra(this.value)">
+  <input type="button" value="M" onclick="escribeLetra(this.value)">
+  <br>
+  <input type="button" value=" " onclick="escribeLetra(this.value)" id="space">
+</div> 
+
+
+<script src="./script.js" ></script>
+</body>
+
+</html>

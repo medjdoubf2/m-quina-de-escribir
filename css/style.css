@@ -1,0 +1,14 @@
+body {
+    width: 50%;
+    height: auto;
+    margin: 0 auto;
+    background: linear-gradient(to right, #842cdc, #f336ea);
+    font-family: 'Arial', sans-serif;
+}
+#space {
+      width: 5em;
+    }
+    #maquina, #div1 {
+      text-align: center;
+      margin-top: 5em;
+    } 
